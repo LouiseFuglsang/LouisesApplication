@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-        public void method(){
+        public void pressedButton(){
             Button Button = new Button();
             Button.setOnClicker(new View.MyInterface() {
                 @Override

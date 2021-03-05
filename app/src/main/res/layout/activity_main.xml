@@ -20,17 +20,17 @@
         android:id="@+id/plain_text_input"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:inputType="text"/>
+        android:inputType="text"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="view"
+        android:onClick="PressedButton"
         android:text="@string/button"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="269dp" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
